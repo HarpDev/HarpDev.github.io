@@ -1,11 +1,9 @@
-[![banner](https://github.com/imcakeu/cakeu.dev/blob/main/media/logo.png?raw=true)](https://cakeu.dev/)
-# cakeu.dev
-my raw html/css portfolio website.
-> [click here to visit it](https://cakeu.dev/)
+# HarpDev's Portfolio
+My personal portfolio website, built from the open-source project [imcakeu/cakeu.dev](https://github.com/imcakeu/cakeu.dev).
 
 # info
-- this project is fully open-source. feel free to fork this and make your own portfolio website.
-- it's hosted with Netlify which is a free CDN which i recommend you to use if you also want to host it.
-- don't forget to keep the link to [anti-copyright]([https://www.anticopyright.com/](https://web.archive.org/web/20230628162549/https://www.anticopyright.com/))! long live open-source~
+- This project is fully open-source. Feel free to fork it and create your own portfolio website.
+- It's hosted with Netlify, a free CDN which I recommend you use if you want to host it.
+- Don't forget to keep the link to [anti-copyright](https://web.archive.org/web/20230628162549/https://www.anticopyright.com/)! Long live open-source~
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3bebc898-439d-4840-b18c-184c9d8545a9/deploy-status)](https://app.netlify.com/sites/cakeu/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bebc898-439d-4840-b18c-184c9d8545a9/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
