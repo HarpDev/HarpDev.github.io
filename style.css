@@ -10,7 +10,7 @@
 /* ========== Fonts ========== */
 html {
 	color-scheme: light;
-	font-family: "Madimi One", sans-serif;
+	font-family: 'SUSE Mono', monospace;
 	font-size: 15pt;
 	background-color: var(--bg-col);
 	color: var(--fg-col);
