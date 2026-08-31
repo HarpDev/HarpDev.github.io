@@ -1,8 +1,8 @@
 /* ========== Variables ========== */
 :root {
-	--bg-col: #3A3A3A;
-	--bg-col-dark: #8A97A8;
-	--fg-col: #293132;
+	--bg-col: #121212;
+	--surface-col: #1E1E1E;
+	--fg-col: #4A4A4A;
 	--text-col: #EDE7E1;
 	--accent-col: #f9f2f1dc;
 	--scrollbar-height: 8px;
@@ -42,7 +42,7 @@ main > :last-child {
 header {
 	display: flex;
 	padding-bottom: 0.5em;
-	border-bottom: 2px solid #444;
+	border-bottom: 2px solid var(--fg-col);
 }
 
 .logo-container {
@@ -55,6 +55,13 @@ header {
 }
 
 /* ========== Typography ========== */
+h1,
+h2,
+h3 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+}
+
 h1 {
 	margin: 0;
 	font-size: 2.25rem;
@@ -130,6 +137,12 @@ a:active {
 	padding: 0.2em 0.2em;
 }
 
+/* ========== Section rhythm ========== */
+.section-divider {
+	border-top: 1px dotted var(--fg-col);
+	margin: 2.5em 0;
+}
+
 /* ========== Projects Section ========== */
 #projects {
     display: flex;
@@ -141,11 +154,10 @@ a:active {
 .project {
     display: flex;
     gap: 1.5em;
-    background-color: var(--bg-col-dark);
-    color: var(--fg-col);
+    background-color: var(--surface-col);
+    border: 1px solid var(--fg-col);
     padding: 1em;
     border-radius: 1em;
-    box-shadow: 4px 4px 4px 4px rgba(41, 49, 50, 0.1);
     align-items: flex-start;
 }
 
@@ -232,7 +244,7 @@ footer {
 	text-align: center;
 	margin-top: 1em;
 	padding-top: 1em;
-	border-top: 2px solid #444;
+	border-top: 2px solid var(--fg-col);
 }
 
 /* ========== Mobile Responsive Styles ========== */
