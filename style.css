@@ -142,6 +142,29 @@ img.a-icon {
 	padding: 0.2em 0.2em;
 }
 
+/* ========== Devlog-style post list ========== */
+.post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85em;
+}
+
+.post-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15em;
+    padding: 0.3em 0;
+}
+
+.post-entry .post-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
 /* ========== Section rhythm ========== */
 .section-divider {
 	border-top: 1px dotted var(--fg-col);
