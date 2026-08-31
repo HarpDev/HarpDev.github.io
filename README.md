@@ -7,3 +7,6 @@ My personal portfolio website, built from the open-source project [imcakeu/cakeu
 - [anti-copyright](https://web.archive.org/web/20230628162549/https://www.anticopyright.com/)   Long live open-source
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3bebc898-439d-4840-b18c-184c9d8545a9/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
+
+<!-- test commit: confirming Claude Code push access -->
+
