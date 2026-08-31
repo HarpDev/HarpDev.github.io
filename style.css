@@ -110,6 +110,11 @@ a:active {
 	height: auto;
 }
 
+/* Icon assets are black-on-transparent; invert so they show up on the dark theme */
+img.a-icon {
+	filter: invert(1);
+}
+
 /* ========== Lists ========== */
 .inline-list {
 	list-style: none;
